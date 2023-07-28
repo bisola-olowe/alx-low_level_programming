@@ -12,7 +12,13 @@
 int main(int argc, char *argv[])
 {
 (void) argv; /*Ignore argv*/
+<<<<<<< HEAD
 	printf("%d\n", argc - 1);
 
 	return (0);
+=======
+        printf("%d\n", argc - 1);
+
+        return (0);
+>>>>>>> 90c1e69356152b27a12d3eacc804a289f25ba667
 }

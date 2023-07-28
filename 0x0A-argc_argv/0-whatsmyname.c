@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 i#include <stdio.h>
+=======
+#include <stdio.h>
+>>>>>>> 90c1e69356152b27a12d3eacc804a289f25ba667
 #include "main.h"
 
 /**
@@ -10,7 +14,13 @@ i#include <stdio.h>
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
+<<<<<<< HEAD
 	printf("%s\n", *argv);
 
 	return (0);
+=======
+        printf("%s\n", *argv);
+
+        return (0);
+>>>>>>> 90c1e69356152b27a12d3eacc804a289f25ba667
 }
